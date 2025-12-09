@@ -70,7 +70,7 @@
 &trans  &none   &none           &kp UP_ARROW    &none            &kp PG_UP        &kp DOWN   &none   &kp LESS_THAN    &kp PIPE      &kp AMPERSAND  &kp GREATER_THAN  &none
 &trans  &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN    &kp LEFT   &none   &kp PLUS         &kp KP_MINUS  &kp STAR       &kp KP_SLASH      &none
 &trans  &none   &none           &none           &none            &none            &kp RIGHT  &none   &kp KP_EQUAL     &none         &none          &none             &trans
-&trans  &trans  &trans          &trans          &kp F19          &trans           &kp ENTER  &trans  &trans           &trans        &trans         &trans
+&trans  &trans  &trans          &trans          &trans           &trans           &kp ENTER  &trans  &trans           &trans        &trans         &trans
             >;
 
             display-name = "layer1";
@@ -79,11 +79,11 @@
 
         layer_2 {
             bindings = <
-&none      &none        &none       &none     &none   &none                   &mmv MOVE_UP     &none                  &kp F7     &kp F8     &kp F9   &kp F10  &trans
-&trans     &none        &none       &trans    &trans  &kp LEFT_BRACE          &mmv MOVE_DOWN   &kp RIGHT_BRACE        &trans     &kp F11    &kp F12  &none    &none
-&kp CARET  &kp PERCENT  &kp DOLLAR  &kp HASH  &kp AT  &kp LEFT_PARENTHESIS    &mmv MOVE_LEFT   &kp RIGHT_PARENTHESIS  &kp COLON  &kp SEMI   &trans   &none    &none
-&trans     &none        &trans      &none     &trans  &kp LEFT_BRACKET        &mmv MOVE_RIGHT  &kp RIGHT_BRACKET      &kp TILDE  &kp GRAVE  &none    &none    &trans
-&trans     &trans       &trans      &trans    &trans  &trans                  &mkp LCLK        &trans                 &trans     &trans     &trans   &trans
+&none      &none        &none       &none     &none    &none                   &mmv MOVE_UP     &none                  &kp F7     &kp F8     &kp F9   &kp F10  &trans
+&trans     &none        &none       &trans    &trans   &kp LEFT_BRACE          &mmv MOVE_DOWN   &kp RIGHT_BRACE        &trans     &kp F11    &kp F12  &none    &none
+&kp CARET  &kp PERCENT  &kp DOLLAR  &kp HASH  &kp AT   &kp LEFT_PARENTHESIS    &mmv MOVE_LEFT   &kp RIGHT_PARENTHESIS  &kp COLON  &kp SEMI   &trans   &none    &none
+&trans     &none        &trans      &none     &trans   &kp LEFT_BRACKET        &mmv MOVE_RIGHT  &kp RIGHT_BRACKET      &kp TILDE  &kp GRAVE  &none    &none    &trans
+&trans     &trans       &trans      &trans    &kp F19  &trans                  &mkp LCLK        &trans                 &trans     &trans     &trans   &trans
             >;
 
             display-name = "layer2";
