@@ -48,13 +48,6 @@
             bindings = <&kp LEFT_CONTROL &kp LEFT_ALT &kp SPACE>;
             label = "SWITCH_LANGUAGE";
         };
-
-        browser_back: browser_back {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <>;
-            label = "BROWSER_BACK";
-        };
     };
 
     keymap {
